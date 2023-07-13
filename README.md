@@ -1,10 +1,11 @@
-# Sentiment Analysis
+# Sentiment Analysis Shared Task at [BLP Workshop @ EMNLP 2023](https://blp-workshop.github.io/)
 
 The aim of this task is to identify the polarity of social media content. Please see the
 [Task Description](#task-description) below.
 
 
 __Table of contents:__
+- [Important Dates](#important-dates)
 - [List of Versions](#list-of-versions)
 - [Contents of the Directory](#contents-of-the-directory)
 - [Task Description](#task-description)
@@ -16,7 +17,16 @@ __Table of contents:__
 - [Licensing](#licensing)
 - [Credits](#Credits)
 
-## List of Versions
+## Important Dates
+- **15 July 2023:** Registration on codalab and beginning of the development cycle
+- **20 August 2023:** Beginning of the evaluation cycle (test sets release and run submission)
+- **25 August 2023:** End of the evaluation cycle
+- **1 September 2023:** Paper submission due
+- **29 September 2023:** Notification of acceptance
+- **6 October 2023:** Camera-ready due
+- **7 December 2023:** Workshop co-located with EMNLP (Singapore)
+
+## Recent Updates
 * __[13/07/2023]__  Training and dev data released
 
 
