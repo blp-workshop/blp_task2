@@ -1,6 +1,6 @@
-# Task 2: Sentiment Analysis
+# Sentiment Analysis
 
-The aim of this task is to identify the polarity of social media content. This year, we offer only one subtask. Please see the 
+The aim of this task is to identify the polarity of social media content. Please see the
 [Task Description](#task-description) below.
 
 
@@ -17,7 +17,7 @@ __Table of contents:__
 - [Credits](#Credits)
 
 ## List of Versions
-* __[13/07/2023]__  Training and dev data released for both subtask
+* __[13/07/2023]__  Training and dev data released
 
 
 
@@ -36,21 +36,21 @@ __Table of contents:__
 
 ## Task Description
 
-**Task 2:** Given a text, detect the fine-grained positive class, if any. This is a multiclass classification task. The fine-grained labels include _Positive_, _Negative_, Neutral
-
+**Task:** The objective is to detect the sentiment associated within a given text. This is a multi-class classification task that involves determining whether the sentiment expressed in the text is _Positive_, _Negative_, _Neutral_.
 
 ## Dataset
 
 ### Input data format
 Each file uses the tsv format. A row within the tsv adheres to the following structure:
+
 ```
 id	text	label
 ```
 Where:
-* id: sentence id for a given political debate
-* text: sentence's text
+* id: an index or id of the text
+* text: text
 * label: Positive, Negative, or Neutral
-* 
+
 ##### Example
 ```
 14737	এখান থেকে সবাই শিক্ষা নিতে পারি ।	Positive
@@ -60,7 +60,7 @@ Where:
 
 ### Scorers
 
-The scorer for the task 2 is located in the [scorer](scorer) module of the project. The scorer will report official evaluation metrics and other metrics of a prediction file. The scorer invokes the format checker for the task to verify the output is properly shaped.
+The scorer for the task is located in the [scorer](scorer) module of the project. The scorer will report official evaluation metrics and other metrics of a prediction file. The scorer invokes the format checker for the task to verify the output is properly shaped.
 It also handles checking if the provided predictions file contains all tweets from the gold one.
 
 
@@ -68,29 +68,29 @@ You can install all prerequisites through,
 ```
 pip install -r requirements.txt
 ```
-Launch the scorer for the task 2 as follows:
+Launch the scorer for the task as follows:
 ```
-python scorer/task2.py --gold-file-path=<path_gold_file> --pred-file-path=<predictions_file>
+python scorer/task.py --gold-file-path=<path_gold_file> --pred-file-path=<predictions_file>
 ```
 
 
 ##### Example
 
 ```
-python scorer/task2.py --pred_files_path task2_dev_output.txt --gold_file_path data/dev.tsv
+python scorer/task.py --pred_files_path task_dev_output.txt --gold_file_path data/dev.tsv
 ```
 
 ### Official Evaluation Metrics
-The **official evaluation metric** for the task is **macro-F1**. However, the scorer also reports accuracy, precision and recall.
+The **official evaluation metric** for the task is **micro-F1**. However, the scorer also reports accuracy, precision and recall.
 
 
 ## Baselines
 
-The [baselines](baselines) module currently contains a majority, random and a simple n-gram baseline for Task 2. 
+The [baselines](baselines) module currently contains a majority, random and a simple n-gram baseline.
 
-Baseline Results for Task 2 on Dev-Test set
+Baseline Results for the task on Dev-Test set
 
-| Model                      | macro-F1 |
+| Model                      | micro-F1 |
 |----------------------------|----------|
 | Random Baseline            | 0.3244   |
 | Majority Baseline          | 0.2210   |
@@ -98,7 +98,7 @@ Baseline Results for Task 2 on Dev-Test set
 
 ## Format checker
 
-The format checkers for both subtasks are located in the [format_checker](format_checker) module of the project. The format checker verifies that your generated results file complies with the expected format.
+The format checkers for the task are located in the [format_checker](format_checker) module of the project. The format checker verifies that your generated results file complies with the expected format.
 
 Before running the format checker please install all prerequisites,
 ```
@@ -108,12 +108,12 @@ pip install -r requirements.txt
 To launch it, please run the following command:
 
 ```
-python format_checker/task2.py -p paths_to_your_results_files
+python format_checker/task.py -p paths_to_your_results_files
 ```
 
 ##### Example
 ```
-python format_checker/task2.py -p ./task2.txt
+python format_checker/task.py -p ./task.txt
 ```
 **paths_to_your_results_files**: can be one path or space-separated list of paths
 
@@ -133,10 +133,10 @@ For each phase, please adhere to the following guidelines:
 
 - Each team should create and maintain a single account for submissions. Please ensure all runs are submitted through this account. Submissions from multiple accounts by the same team could result in your system being not ranked in the overview paper.
 - The most recent file submitted to the leaderboard will be considered your final submission.
-- The output file must be named task2.tsv. Failure to follow this naming convention will result in an error on the leaderboard.
-- You are required to compress the .tsv file into a .zip file (for example, zip task2.zip task2.tsv) and submit it via the Codalab page.
+- The output file must be named task.tsv. Failure to follow this naming convention will result in an error on the leaderboard.
+- You are required to compress the .tsv file into a .zip file (for example, zip task.zip task.tsv) and submit it via the Codalab page.
 - Please include your team name and a description of your method with each submission.
-- You are permitted to submit a maximum of 200 submissions per day for the Task.
+- You are permitted to submit a maximum of 50 submissions per day for the task.
 
 
 ### Submission Site
@@ -146,11 +146,34 @@ For each phase, please adhere to the following guidelines:
 ## Licensing
 The dataset is free for general research use.
 
+## Citation
+There are various papers associated with the task. Details for the papers specific to the task as well as an overall overview will be posted here as they come out. Bib entries for each paper are included here. For your convenience, the [bib file](bibtex/bibliography.bib) is available as well.
+
+```
+to appear
+```
+
+```
+@inproceedings{islam-etal-2021-sentnob-dataset,
+    title = "{S}ent{N}o{B}: A Dataset for Analysing Sentiment on Noisy {B}angla Texts",
+    author = "Islam, Khondoker Ittehadul  and
+      Kar, Sudipta  and
+      Islam, Md Saiful  and
+      Amin, Mohammad Ruhul",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.278",
+    doi = "10.18653/v1/2021.findings-emnlp.278",
+    pages = "3265--3271",
+}
+```
 
 ## Credits
 - Md. Arid Hasan, GRA, University of New Brunswick
 - Shudipta Das, Daffodil International University
 - Afiyat Anjum, Daffodil International University
 - Anika Anjum, Daffodil International University
-- Dr. Firoj Alam, Scientist, Qatar Computing Research Institute
-- [SentiNOB](https://aclanthology.org/2021.findings-emnlp.278.pdf)
+- [Dr. Firoj Alam](http://sites.google.com/site/firojalam/), Scientist, Qatar Computing Research Institute
