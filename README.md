@@ -171,7 +171,7 @@ to appear
 }
 ```
 
-## Credits
+## Organizers
 - Md. Arid Hasan, GRA, University of New Brunswick
 - Shudipta Das, Daffodil International University
 - Afiyat Anjum, Daffodil International University
