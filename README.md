@@ -102,9 +102,9 @@ Baseline Results for the task on Dev-Test set
 
 | Model                      | micro-F1 |
 |----------------------------|----------|
-| Random Baseline            | 0.3244   |
-| Majority Baseline          | 0.2210   |
-| n-gram Baseline            | 0.4436   |
+| Random Baseline            | 0.3389   |
+| Majority Baseline          | 0.4962   |
+| n-gram Baseline            | 0.5736   |
 
 ## Format checker
 

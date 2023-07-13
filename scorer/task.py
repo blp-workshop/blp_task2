@@ -122,7 +122,7 @@ def evaluate(pred_labels, gold_labels):
     acc = accuracy_score(gold_values, pred_values)
     precision = precision_score(gold_values, pred_values, average='weighted')
     recall = recall_score(gold_values, pred_values, average='weighted')
-    f1 = f1_score(gold_values, pred_values, average='macro')
+    f1 = f1_score(gold_values, pred_values, average='micro')
 
     return acc, precision, recall, f1
 

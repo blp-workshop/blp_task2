@@ -84,7 +84,7 @@ def run_baselines(train_fpath, test_fpath):
 
     if check_format(majority_baseline_fpath):
         acc, precision, recall, f1 = evaluate(majority_baseline_fpath, test_fpath)
-        logging.info(f"Majority Baseline F1-macro: {f1}")
+        logging.info(f"Majority Baseline F1-micro: {f1}")
 
 
     random_baseline_fpath = join(ROOT_DIR, f'data/random_baseline_{basename(test_fpath)}')
@@ -92,13 +92,13 @@ def run_baselines(train_fpath, test_fpath):
 
     if check_format(random_baseline_fpath):
         acc, precision, recall, f1 = evaluate(random_baseline_fpath, test_fpath)
-        logging.info(f"Random Baseline F1-macro: {f1}")
+        logging.info(f"Random Baseline F1-micro: {f1}")
 
     ngram_baseline_fpath = join(ROOT_DIR, f'data/ngram_baseline_{basename(test_fpath)}')
     run_ngram_baseline(train_fpath, test_fpath, ngram_baseline_fpath)
     if check_format(ngram_baseline_fpath):
         acc, precision, recall, f1 = evaluate(ngram_baseline_fpath, test_fpath)
-        logging.info(f"Ngram Baseline F1-macro: {f1}")
+        logging.info(f"Ngram Baseline F1-micro: {f1}")
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
