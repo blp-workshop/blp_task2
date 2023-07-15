@@ -1,4 +1,4 @@
-# Sentiment Analysis Shared Task at [BLP Workshop @ EMNLP 2023](https://blp-workshop.github.io/)
+# Sentiment Analysis Shared Task at [BLP Workshop @EMNLP 2023](https://blp-workshop.github.io/)
 
 The aim of this task is to identify the polarity of social media content. Please see the
 [Task Description](#task-description) below.
@@ -14,17 +14,18 @@ __Table of contents:__
 - [Baselines](#baselines)
 - [Format checker](#formatchecker)
 - [Submission Guidelines](#submission-guidelines)
-- [Licensing](#licensing)
-- [Credits](#Credits)
+- [Organizers](#Credits)
 
 ## Important Dates
-- **15 July 2023:** Registration on codalab and beginning of the development cycle
-- **20 August 2023:** Beginning of the evaluation cycle (test sets release and run submission)
-- **25 August 2023:** End of the evaluation cycle
-- **1 September 2023:** Paper submission due
-- **29 September 2023:** Notification of acceptance
-- **6 October 2023:** Camera-ready due
-- **7 December 2023:** Workshop co-located with EMNLP (Singapore)
+- **16 July 2023:** Registration on codalab and beginning of the development cycle
+- **15 August 2023:** Beginning of the evaluation cycle (test sets release and run submission)
+- **18 August 2023:** End of the evaluation cycle
+- **20 August 2023:** Publish rank list and share paper submission details
+- **12 September 2023:** Deadline for the submission of working notes
+- **10 October 2023:** Notification of acceptance
+- **18 October 2023:** Camera-ready due
+- **8 December 2023:** Workshop co-located with EMNLP (Singapore)
+
 
 ## Recent Updates
 * __[13/07/2023]__  Training and dev data released
@@ -49,6 +50,8 @@ __Table of contents:__
 **Task:** The objective is to detect the sentiment associated within a given text. This is a multi-class classification task that involves determining whether the sentiment expressed in the text is _Positive_, _Negative_, _Neutral_.
 
 ## Dataset
+For a brief overview of the dataset, kindly refer to the *README.md* file located in the data directory.
+
 
 ### Input data format
 Each file uses the tsv format. A row within the tsv adheres to the following structure:
@@ -69,9 +72,7 @@ Where:
 ## Scorer and Official Evaluation Metrics
 
 ### Scorers
-
-The scorer for the task is located in the [scorer](scorer) module of the project. The scorer will report official evaluation metrics and other metrics of a prediction file. The scorer invokes the format checker for the task to verify the output is properly shaped.
-It also handles checking if the provided predictions file contains all tweets from the gold one.
+The scorer for the task is located in the [scorer](scorer) module of the project. The scorer will report official evaluation metrics and other metrics of a prediction file. The scorer invokes the format checker for the task to verify the output is properly shaped. It also handles checking if the provided predictions file contains all tweets from the gold one.
 
 
 You can install all prerequisites through,
@@ -118,43 +119,40 @@ pip install -r requirements.txt
 To launch it, please run the following command:
 
 ```
-python format_checker/task.py -p paths_to_your_results_files
+python format_checker/task.py -p results_files
 ```
 
 ##### Example
 ```
 python format_checker/task.py -p ./task.txt
 ```
-**paths_to_your_results_files**: can be one path or space-separated list of paths
+**results_files**: can be one path or space-separated list of paths
 
 
-**Note that the checker cannot verify whether the prediction file you submit contains all lines, because it does not have access to the corresponding gold file.**
+<!-- **Note that the checker cannot verify whether the prediction file you submit contains all lines, because it does not have access to the corresponding gold file.** -->
 
 
 ## Submission
 
 ### Guidelines
+Evaluation consists of two phases:
 
-The process consists of two phases:
+1. **Development phase:** This phase involves working on the *dev-test set*.
+2. **Evaluation phase:** This phase involves working on the *test set*, which will be released during the ***evaluation cycle***.
 
-1. **System Development Phase:** This phase involves working on the *dev-test set*.
-2. **Final Evaluation Phase:** This phase involves working on the *test set*, which will be released during the ***evaluation cycle***.
 For each phase, please adhere to the following guidelines:
 
-- Each team should create and maintain a single account for submissions. Please ensure all runs are submitted through this account. Submissions from multiple accounts by the same team could result in your system being not ranked in the overview paper.
-- The most recent file submitted to the leaderboard will be considered your final submission.
-- The output file must be named task.tsv. Failure to follow this naming convention will result in an error on the leaderboard.
-- You are required to compress the .tsv file into a .zip file (for example, zip task.zip task.tsv) and submit it via the Codalab page.
-- Please include your team name and a description of your method with each submission.
-- You are permitted to submit a maximum of 50 submissions per day for the task.
+- We request each team to establish and manage a single account for all submissions. Hence, all runs should be submitted through the same account. Any submissions made from multiple accounts by the same team may lead to your system being not ranked from the final ranking in the overview paper.
+- The most recently uploaded file on the leaderboard will serve as your final submission.
+- Adhere strictly to the naming convention for the output file, which must be labeled as 'task.tsv'. Deviation from this standard could trigger an error on the leaderboard.
+- Submission protocol requires you to compress the '.tsv' file into a '.zip' file (for instance, zip task.zip task.tsv) and submit it through the Codalab page.
+- With each submission, ensure to include your team name along with a brief explanation of your methodology.
+- Each team is allowed a maximum of 50 submissions per day for the given task. Please adhere to this limit.
 
 
 ### Submission Site
 **TBA**
 
-
-## Licensing
-The dataset is free for general research use.
 
 ## Citation
 There are various papers associated with the task. Details for the papers specific to the task as well as an overall overview will be posted here as they come out. Bib entries for each paper are included here. For your convenience, the [bib file](bibtex/bibliography.bib) is available as well.
@@ -186,4 +184,4 @@ to appear
 - Shudipta Das, Daffodil International University
 - Afiyat Anjum, Daffodil International University
 - Anika Anjum, Daffodil International University
-- [Dr. Firoj Alam](http://sites.google.com/site/firojalam/), Scientist, Qatar Computing Research Institute
+- [Firoj Alam](http://sites.google.com/site/firojalam/), Scientist, Qatar Computing Research Institute
