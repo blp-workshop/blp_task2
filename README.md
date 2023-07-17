@@ -179,6 +179,10 @@ to appear
 }
 ```
 
+## Communication
+Please join us in Slack channel for discussion and doubts:
+ - [Slack](https://join.slack.com/t/blpworkshop/shared_invite/zt-1ryu9eyac-7fevK9A4_Bt~qN_eCK349g)
+
 ## Organizers
 - Md. Arid Hasan, GRA, University of New Brunswick
 - Shudipta Das, Daffodil International University
