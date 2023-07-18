@@ -151,7 +151,7 @@ For each phase, please adhere to the following guidelines:
 
 
 ### Submission Site
-**TBA**
+[https://codalab.lisn.upsaclay.fr/competitions/14587](https://codalab.lisn.upsaclay.fr/competitions/14587)
 
 
 ## Citation
@@ -184,8 +184,8 @@ Please join us in Slack channel for discussion and doubts:
  - [Slack](https://join.slack.com/t/blpworkshop/shared_invite/zt-1ryu9eyac-7fevK9A4_Bt~qN_eCK349g)
 
 ## Organizers
-- Md. Arid Hasan, GRA, University of New Brunswick
+- [Md. Arid Hasan](https://sites.google.com/view/aridhasan), GRA, University of New Brunswick
+- [Firoj Alam](http://sites.google.com/site/firojalam/), Scientist, Qatar Computing Research Institute
 - Shudipta Das, Daffodil International University
 - Afiyat Anjum, Daffodil International University
 - Anika Anjum, Daffodil International University
-- [Firoj Alam](http://sites.google.com/site/firojalam/), Scientist, Qatar Computing Research Institute
