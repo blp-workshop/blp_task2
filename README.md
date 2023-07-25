@@ -34,16 +34,20 @@ __Table of contents:__
 
 ## Contents of the Directory
 * Main folder: [data](./data)<br/>
-  This directory contains files for the subtasks.
+  This directory contains files for the task.
+* Main folder: [bibtex](./bibtex)<br/>
+  This directory contains bibliography of related works.
 * Main folder: [baselines](./baselines)<br/>
-	Contains scripts provided for baseline models of the tasks.
+    Contains scripts provided for baseline models of the task.
+* Main folder: [example_scripts](./example_scripts)<br/>
+    Contains an example script provided to run DistilBERT model for the task.
 * Main folder: [format_checker](./format_checker)<br/>
-	Contains scripts provided to check the format of the submission file.
+    Contains scripts provided to check the format of the submission file.
 * Main folder: [scorer](./scorer)<br/>
-	Contains scripts provided to score the output of the model when provided with the label (i.e., dev).
+    Contains scripts provided to score the output of the model when provided with the label (i.e., dev).
 
 * [README.md](./README.md) <br/>
-	This file!
+    This file!
 
 ## Task Description
 
