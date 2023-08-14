@@ -34,7 +34,9 @@ __Table of contents:__
 
 ## Contents of the Directory
 * Main folder: [data](./data)<br/>
-  This directory contains files for the task.
+  This directory contains data files for the task.
+  * Sub folder: [test](./data/test)<br/>
+  This directory contains test files for the task evaluation.
 * Main folder: [bibtex](./bibtex)<br/>
   This directory contains bibliography of related works.
 * Main folder: [baselines](./baselines)<br/>
@@ -103,6 +105,16 @@ The **official evaluation metric** for the task is **micro-F1**. However, the sc
 
 The [baselines](baselines) module currently contains a majority, random and a simple n-gram baseline.
 
+**Baseline Results for the task on <u>Test set</u>**
+
+| Model                      | micro-F1 |
+|----------------------------|----------|
+| Random Baseline            | 0.3356   |
+| Majority Baseline          | 0.4977   |
+| n-gram Baseline            | 0.5514   |
+
+
+
 Baseline Results for the task on Dev-Test set
 
 | Model                      | micro-F1 |
@@ -152,6 +164,16 @@ For each phase, please adhere to the following guidelines:
 - Submission protocol requires you to compress the '.tsv' file into a '.zip' file (for instance, zip task.zip task.tsv) and submit it through the Codalab page.
 - With each submission, ensure to include your team name along with a brief explanation of your methodology.
 - Each team is allowed a maximum of 50 submissions per day for the given task. Please adhere to this limit.
+
+### Submission Format
+Submission file format is tsv (tab seperated values). A row within the tsv adheres to the following structure:
+
+```
+id	label
+```
+Where:
+* id: a id of the text
+* label: Positive, Negative, or Neutral
 
 
 ### Submission Site
