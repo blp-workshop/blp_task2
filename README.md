@@ -21,10 +21,12 @@ __Table of contents:__
 - **15 August 2023:** Beginning of the evaluation cycle (test sets release and run submission)
 - **18 August 2023:** End of the evaluation cycle
 - **20 August 2023:** Publish rank list and share paper submission details
-- **12 September 2023:** Deadline for the submission of working notes
+- **~~12 September 2023: Deadline for the submission of working notes~~
+- **10 September 2023:** Deadline for the submission of working notes
 - **10 October 2023:** Notification of acceptance
-- **18 October 2023:** Camera-ready due
-- **8 December 2023:** Workshop co-located with EMNLP (Singapore)
+- **~~18 October 2023: Camera-ready due~~
+- **16 October 2023:** Camera-ready due
+- **8 December 2023:** Workshop co-located with EMNLP-2023 (Singapore)
 
 
 ## Recent Updates
