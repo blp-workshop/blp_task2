@@ -186,38 +186,39 @@ Where:
 ## Leaderboard
 
 
-| Ranking |Username         | F1-Micro |
-|---------|-----------------|----------|
-| 1       |MoFa_Aambela     | 0.7310   |
-| 2       |yangst           | 0.7267   |
-| 3       |amlan107         | 0.7179   |
-| 4       |Hari_vm          | 0.7172   |
-| 5       |PreronaTarannum  | 0.7164   |
-| —       |ShadmanRohan     | 0.7155   |
-| 6       |MEAkhter         | 0.7112   |
-| 7       |empty_box        | 0.7109   |
-| 8       |todiketan        | 0.7094   |
-| 9       |towhidul_tonmoy  | 0.7088   |
-| 10      |ptnv-s           | 0.7078   |
-| 11      |DeepBlueAI       | 0.7076   |
-| 12      |Raihan008        | 0.7058   |
-| 13      |NLP_TEAM         | 0.7052   |
-| 14      |M1437            | 0.7036   |
-| 15      |Semantic_Savants | 0.7002   |
-| 16      |abdalimran       | 0.6996   |
-| 17      |Ka05aR           | 0.6930   |
-| 18      |VishwasGPai      | 0.6824   |
-| 19      |souro            | 0.6768   |
-| 20      |KrishnoDey       | 0.6742   |
-| 21      |Ssaha            | 0.6702   |
-| 22      |pramitb          | 0.6584   |
-| 23      |Trina_Chakraborty| 0.6194   |
-| —       |Rachana8._K      | 0.5962   |
-| 24      |lixn             | 0.5889   |
-| 25      |deepsarker       | 0.4534   |
-| 26      |rajeshdiu        | 0.4129   |
-| 27      |SSCP             | 0.3390   |
-| 28      |nnur594          | 0.2626   |
+| Ranking | Username          | F1-Micro |
+|---------|-------------------|----------|
+| 1       | MoFa_Aambela      | 0.7310   |
+| 2       | yangst            | 0.7267   |
+| 3       | amlan107          | 0.7179   |
+| 4       | Hari_vm           | 0.7172   |
+| 5       | PreronaTarannum   | 0.7164   |
+| —       | ShadmanRohan      | 0.7155   |
+| 6       | MEAkhter          | 0.7112   |
+| 7       | empty_box         | 0.7109   |
+| 8       | todiketan         | 0.7094   |
+| 9       | towhidul_tonmoy   | 0.7088   |
+| 10      | ptnv-s            | 0.7078   |
+| 11      | DeepBlueAI        | 0.7076   |
+| 12      | Raihan008         | 0.7058   |
+| 13      | NLP_TEAM          | 0.7052   |
+| 14      | M1437             | 0.7036   |
+| 15      | Semantic_Savants  | 0.7002   |
+| 16      | abdalimran        | 0.6996   |
+| 17      | Ka05aR            | 0.6930   |
+| 18      | VishwasGPai       | 0.6824   |
+| 19      | souro             | 0.6768   |
+| 20      | KrishnoDey        | 0.6742   |
+| 21      | Ssaha             | 0.6702   |
+| 22      | pramitb           | 0.6584   |
+| 23      | Trina_Chakraborty | 0.6194   |
+| —       | Rachana8._K       | 0.5962   |
+| 24      | lixn              | 0.5889   |
+| 25      | Baseline(Majority)| 0.4977   |
+| 26      | deepsarker        | 0.4534   |
+| 27      | rajeshdiu         | 0.4129   |
+| 28      | SSCP              | 0.3390   |
+| 29      | nnur594           | 0.2626   |
 
 **Submissions without position were submitted after the deadline due to the formatting issues.**
 ## Citation
