@@ -6,6 +6,7 @@ The aim of this task is to identify the polarity of social media content. Please
 
 __Table of contents:__
 - [Important Dates](#important-dates)
+- [Proceedings](proceedings)
 - [List of Versions](#list-of-versions)
 - [Contents of the Directory](#contents-of-the-directory)
 - [Task Description](#task-description)
@@ -14,8 +15,8 @@ __Table of contents:__
 - [Baselines](#baselines)
 - [Format checker](#formatchecker)
 - [Submission Guidelines](#submission-guidelines)
-- [Leaderboard](#Leaderboard)
-- [Organizers](#Credits)
+- [Leaderboard](#leaderboard)
+- [Organizers](#organizers)
 
 ## Important Dates
 - **16 July 2023:** Registration on codalab and beginning of the development cycle
@@ -29,10 +30,25 @@ __Table of contents:__
 - **16 October 2023:** Camera-ready due
 - **8 December 2023:** Workshop co-located with EMNLP-2023 (Singapore)
 
+## Proceedings
 
+### Instructions to Prepare Your Shared Task Paper
+The title of paper should be in the following format: **< Team Name > at BLP-2023 Task 2: < Descriptive title of your paper >**
+
+For example, team **AlphaX** would their title as follows: **AlphaX at BLP-2023 Task 2: Transformer Models for Sentiment Analysis**
+
+- **The shared task papers may consist of up to four (4) pages of content.**
+
+**Templates:** The Shared tasks papers must follow the EMNLP 2023 two-column format, using the supplied [official templates](https://2023.emnlp.org/calls/style-and-formatting/). The templates can be downloaded in style files and formatting. Please do not modify these style files, nor should you use templates designed for other conferences. Submissions that do not conform to the required styles, including paper size, margin width, and font size restrictions, will be rejected without review. Verification to guarantee conformance to publication standards, we will be using the [ACL pubcheck tool](https://github.com/acl-org/aclpubcheck). The PDFs of camera-ready papers must be run through this tool prior to their final submission, and we recommend its use also at submission time.
+
+Submissions are open to only for the teams are submitted their systems during the evaluation phase and listed in the leaderboard. The working notes are to be submitted anonymously. For the anonymity, double-blind submission and reproducibility criteria please follow the [EMNLP 2023 instructions](https://2023.emnlp.org/calls/main_conference_papers/).
 ## Recent Updates
+* __[21/08/2023]__  Leaderboard announced
+* __[18/08/2023]__  Competition snds
+* __[15/08/2023]__  Evaluation phase starts
+* __[15/08/2023]__  Test data released for evaluation phase
+* __[13/07/2023]__  Development phase starts
 * __[13/07/2023]__  Training and dev data released
-
 
 
 ## Contents of the Directory
