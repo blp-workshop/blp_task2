@@ -244,14 +244,23 @@ There are various papers associated with the task. Details for the papers specif
 ```
 @inproceedings{blp2023-overview,
     title = "BLP 2023 Task 2: Sentiment Analysis",
-    author = "Hasan, Md. Arid and Alam, Firoj and Das, Shudipta and Anjum, Afiyat and Anjum, Anika",
+    author = "Hasan, Md. Arid and Alam, Firoj and Anjum, Anika and Das, Shudipta and Anjum, Afiyat",
     booktitle = "Proceedings of the First Workshop on Bangla Language Processing (BLP 2023)",
     month = Dec,
     year = "2023",
     address = "Singapore",
     publisher = "Association for Computational Linguistics",
 }
-
+```
+```
+@article{hasan2023zero,
+      title={Zero- and Few-Shot Prompting with LLMs: A Comparative Study with Fine-tuned Models for Bangla Sentiment Analysis}, 
+      author={Md. Arid Hasan and Shudipta Das and Afiyat Anjum and Firoj Alam and Anika Anjum and Avijit Sarker and Sheak Rashed Haider Noori},
+      year={2023},
+      eprint={2308.10783},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
 
 ```
