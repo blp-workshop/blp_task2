@@ -230,11 +230,12 @@ Where:
 | 23      | Trina_Chakraborty | 0.6194   |
 | —       | Rachana8._K       | 0.5962   |
 | 24      | lixn              | 0.5889   |
-| 25      | Baseline(Majority)| 0.4977   |
+| 25      | Baseline (Majority)| 0.4977  |
 | 26      | deepsarker        | 0.4534   |
 | 27      | rajeshdiu         | 0.4129   |
 | 28      | SSCP              | 0.3390   |
-| 29      | nnur594           | 0.2626   |
+| 29      | Baseline (Random) | 0.3356   |
+| 30      | nnur594           | 0.2626   |
 
 **Submissions without position were submitted after the deadline due to the formatting issues.**
 ## Citation
