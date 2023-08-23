@@ -242,11 +242,11 @@ Where:
 There are various papers associated with the task. Details for the papers specific to the task as well as an overall overview will be posted here as they come out. Bib entries for each paper are included here. For your convenience, the [bib file](bibtex/bibliography.bib) is available as well.
 
 ```
-@inproceedings{blp2023-overview,
+@inproceedings{blp2023-overview-task2,
     title = "BLP 2023 Task 2: Sentiment Analysis",
     author = "Hasan, Md. Arid and Alam, Firoj and Anjum, Anika and Das, Shudipta and Anjum, Afiyat",
-    booktitle = "Proceedings of the First Workshop on Bangla Language Processing (BLP 2023)",
-    month = Dec,
+    booktitle = "Proceedings of the 1st International Workshop on Bangla Language Processing (BLP-2023)",
+    month = dec,
     year = "2023",
     address = "Singapore",
     publisher = "Association for Computational Linguistics",
