@@ -24,10 +24,10 @@ __Table of contents:__
 - ~~**18 August 2023:** End of the evaluation cycle~~
 - ~~**20 August 2023:** Publish rank list and share paper submission details~~
 - **~~12 September 2023: Deadline for the submission of working notes~~
-- **10 September 2023:** Deadline for the submission of working notes
-- **10 October 2023:** Notification of acceptance
+- ~~**10 September 2023:** Deadline for the submission of working notes~~
+- ~~**10 October 2023:** Notification of acceptance~~
 - **~~18 October 2023: Camera-ready due~~
-- **16 October 2023:** Camera-ready due
+- ~~**16 October 2023:** Camera-ready due~~
 - **8 December 2023:** Workshop co-located with EMNLP-2023 (Singapore)
 
 ## Proceedings
@@ -223,7 +223,7 @@ Where:
 | 16      | abdalimran        | 0.6996   |
 | 17      | Ka05aR            | 0.6930   |
 | 18      | VishwasGPai       | 0.6824   |
-| 19      | souro             | 0.6768   |
+| 19      | UFAL-ULD          | 0.6768   |
 | 20      | KrishnoDey        | 0.6742   |
 | 21      | Ssaha             | 0.6702   |
 | 22      | pramitb           | 0.6584   |
